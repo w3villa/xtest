@@ -92,6 +92,14 @@ $total-items: 11;
 }
 
 
+
+.about-cont { height: 600px;
+              width: 100%;
+               }
+
+
+
+
 .about-us{
     float: left;
     height: 550px;
