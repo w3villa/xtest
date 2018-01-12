@@ -119,12 +119,36 @@ img {
 }
 
 
+.ben { height: 400px;
+    width: 33%;
+    float: left;
+    margin-left: 1px; }
+
+
+.ben-txt {height: 199px;
+      width: 100%;
+      background: r
+      margin-bottom: 1px;
+    }
+
+
+
+.ben-txt :hover { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+
+}
 
 
 
 
+.ben-cont { width: 100%;
+            height: 400px;
+             }
 
 
+
+#ben-img { height: 57%;
+    margin-top: 50px;
+}
 
 
 
