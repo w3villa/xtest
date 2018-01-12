@@ -30,20 +30,6 @@ p {
   margin: 0 0 25px; }
  
 
-#loading {
-  height: 120px;
-    -webkit-animation: rotation 2s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotateY(0deg);
-    }
-    to {
-        -webkit-transform: rotateY(359deg);
-    }
-    
- }
 
 
 
@@ -65,12 +51,11 @@ $total-items: 11;
     display: block;
     margin-bottom: 5px;
     padding: 10px;
-    border: 1px solid hotpink;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     animation: fadeIn 0.5s linear;
     animation-fill-mode: both;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   
@@ -97,34 +82,36 @@ $total-items: 11;
 
 
 
-
-  .button {
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-  border: none;
-  font: normal 48px/normal "Warnes", Helvetica, sans-serif;
-  color: rgba(255,255,255,1);
-  text-decoration: normal;
-  text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
-  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+.ico-particular {
+    float: left;
+    height: 200px;
+    width: 24%;
+    background: #ccc;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
-.button:hover {
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-  -webkit-transform: rotateZ(-4.010704565915763deg)   ;
-  transform: rotateZ(-4.010704565915763deg)   ;
+
+.about-us{
+    float: left;
+    height: 550px;
+    width: 50%;
+
 }
 
+.about-img {
+    float: left;
+    height: 550px;
+    width: 50%;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+
+
+.download-section { clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+ }
 
 
 
@@ -217,7 +204,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/wbg.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -267,7 +254,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/rotate.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
