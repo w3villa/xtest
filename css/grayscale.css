@@ -49,8 +49,8 @@ $total-items: 11;
 .about-list li {
     position: relative;
     display: block;
-    margin-bottom: 5px;
-    padding: 10px;
+    margin-bottom: 0;
+    padding: 0;
     text-align: left;
     text-transform: uppercase;
     animation: fadeIn 0.5s linear;
@@ -95,14 +95,14 @@ $total-items: 11;
 .about-us{
     float: left;
     height: 550px;
-    width: 50%;
+    width: 51%;
 
 }
 
 .about-img {
     float: left;
     height: 550px;
-    width: 50%;
+    width: 49%;
     background-image: url(../img/about.jpg);
     background-size: cover;
     background-position: right;
@@ -114,7 +114,9 @@ $total-items: 11;
  }
 
 
-
+img {
+  height: 50px;
+}
 
 
 
