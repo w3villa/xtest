@@ -206,9 +206,14 @@ float: left;}
 
 
 
+.feature-img img { width: 70%;
+    margin-left: 25%;
+    margin-top: 5%;
+ }
 
-
-
+.feature-text p { padding-left: 10%;
+    padding-top: 10%;
+ }
 
 
 
