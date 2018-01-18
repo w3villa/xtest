@@ -458,7 +458,7 @@ ol.type li a:hover {
 }
 img.img-thumbnail.team-img {
 	width: 200px;
-	height: 200px;
+	height: 140px;  /*changed*/
 	border: 0;
 	border-radius: 0;
 	background-color: #f6f6f6;
