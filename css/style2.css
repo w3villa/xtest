@@ -162,7 +162,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/africa.jpg) no-repeat center center fixed;
+	background: url(../img/africa_1.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -297,7 +297,7 @@ float: left;}
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: url(../img/africa2.jpg);
+	background: url(../img/africa_2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
